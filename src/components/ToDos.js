@@ -1,6 +1,6 @@
 const ToDos = (props) => {
   const userTodos = props.list.map((toDo, i) => (
-    <li key={i}>
+    <li class="listItem" key={i}>
       <input
         type="checkbox"
         defaultChecked={toDo.done}
@@ -17,7 +17,7 @@ const ToDos = (props) => {
       </i>
     </li>
   ));
-  return <ul>{userTodos}</ul>;
+  return <ul class="listContainer">{userTodos}</ul>;
 };
 
 export default ToDos;
