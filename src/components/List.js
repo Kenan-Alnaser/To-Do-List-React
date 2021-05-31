@@ -22,10 +22,12 @@ const List = (props) => {
     }
   }
   return (
-    <form onSubmit={submitHandle}>
-      <input type="text" value={userInput} onChange={changeHandle} />
-      <input type="submit" value="Add" class="submitBtn" />
-    </form>
+    <div className="taskForm">
+      <form onSubmit={submitHandle}>
+        <input type="text" value={userInput} onChange={changeHandle} />
+        <input type="submit" value="Add" class="submitBtn" />
+      </form>
+    </div>
   );
 };
 

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 body {
   display: flex;
   align-items: center;
@@ -9,6 +11,7 @@ body {
   );
   color: lightgrey;
   height: 100vh;
+  font-family: "Press Start 2P", cursive;
 }
 
 li {
@@ -30,10 +33,16 @@ i:hover {
   border: 5px solid grey;
   background-color: white;
   border-radius: 30%;
+  text-align: center;
 }
 
 .submitBtn {
   border-radius: 10px;
   transform: scale(1.3);
   margin-left: 1.5rem;
+}
+
+.taskForm {
+  display: flex;
+  justify-content: center;
 }
