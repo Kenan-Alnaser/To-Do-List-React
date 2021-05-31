@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# About this app
+
+A simple app page for a To-Do list with a checkbox and a remove button.
+
+![To-Do List](./screenshot/ToDo.jpg)
+
+# Citations
+
+Font "Press Start 2P" by Google Fonts
