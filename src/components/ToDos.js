@@ -9,7 +9,6 @@ const ToDos = (props) => {
       {toDo.title}
       <i
         onClick={() => {
-          console.log(toDo.id);
           props.remove(toDo.id);
         }}
       >
