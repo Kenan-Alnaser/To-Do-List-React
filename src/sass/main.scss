@@ -2,8 +2,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(247, 247, 247, 1) 100%
+  );
   color: lightgrey;
+  height: 100vh;
 }
 
 li {

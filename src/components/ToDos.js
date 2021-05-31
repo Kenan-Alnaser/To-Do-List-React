@@ -12,7 +12,7 @@ const ToDos = (props) => {
           props.remove(toDo.id);
         }}
       >
-        🗑
+        ❌
       </i>
     </li>
   ));
